@@ -44,3 +44,25 @@ html {
   padding: 5px 10px;
   border-bottom: 1px solid #ccc;
 }
+
+@media (max-width: 768px) {
+  .searchInput {
+    width: 80%;
+  }
+  .dataList {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .searchInput {
+    width: 80%;
+  }
+  .dataList {
+    width: 80%;
+  }
+  .content {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+}
